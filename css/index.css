@@ -1,0 +1,186 @@
+.html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.lmm_container {
+  width: 100%;
+  background-color: #fff;
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.lmm_container .lmm_header {
+  width: 100%;
+  height: 44px;
+  position: relative;
+  line-height: 44px;
+  background-color: #F7F7F7;
+}
+.lmm_container .lmm_header .lmm_login {
+  width: 44px;
+  height: 44px;
+  font-size: 16px;
+  color: #CF049B;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.lmm_container .lmm_header .lmm_log {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.lmm_container .lmm_header .lmm_log > img {
+  width: 30px;
+  height: 30px;
+  background-size: 25px 25px;
+}
+.lmm_container .lmm_header .lmm_lmm {
+  padding: 0 60px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  color: #000009;
+}
+.lmm_container .lmm_banner .pcImg {
+  width: 100%;
+  height: 387px;
+  display: block;
+  background-color: center center;
+  /*设置背景图片的大小*/
+  /*按盒子大小自动铺满*/
+  background-color: cover;
+}
+.lmm_container .jd_nav {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.lmm_container .jd_nav ul {
+  overflow: hidden;
+  padding: 0;
+}
+.lmm_container .jd_nav ul li {
+  list-style: none;
+  width: 25%;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.lmm_container .jd_nav ul li:first-child {
+  border-left: 1px solid #ccc;
+}
+.lmm_container .jd_nav ul li:nth-child(5) {
+  border-left: 1px solid #ccc;
+}
+.lmm_container .jd_nav ul li a {
+  width: 100%;
+  display: block;
+}
+.lmm_container .jd_nav ul li a img {
+  width: 100%;
+  display: block;
+}
+.lmm_container .lmm_productBox {
+  margin-top: 20px;
+  width: 100%;
+}
+.lmm_container .lmm_productBox .jd_pContent {
+  width: 100%;
+}
+.lmm_container .lmm_productBox .jd_pContent .b_bottom {
+  border-bottom: 1px solid #ccc;
+}
+.lmm_container .lmm_productBox .jd_pContent .b_left {
+  border-left: 1px solid #ccc;
+}
+.lmm_container .lmm_productBox .jd_pContent .b_right {
+  border-right: 1px solid #ccc;
+}
+.lmm_container .lmm_productBox .jd_pContent .a_50 {
+  width: 50%;
+  display: block;
+}
+.lmm_container .lmm_productBox .jd_pContent .a_50 img {
+  width: 100%;
+  display: block;
+}
+.lmm_container .remen {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+.lmm_container .remen p {
+  overflow: hidden;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  background-color: #F1F1F1;
+  color: #555;
+  font-weight: 700;
+  padding-left: 7px;
+  margin: 0;
+}
+.lmm_container .remen ul {
+  padding: 0;
+}
+.lmm_container .remen ul li {
+  list-style: none;
+  border: 1px solid #ccc;
+}
+.lmm_container .remen ul li a {
+  display: block;
+  width: 100%;
+}
+.lmm_container .remen ul li a img {
+  display: block;
+  width: 100%;
+}
+.lmm_container .lmm_product {
+  clear: both;
+  background-color: #eee;
+}
+.lmm_container .lmm_product .tabs_parent {
+  width: 100%;
+  overflow: hidden;
+}
+.lmm_container .lmm_product .tabs_parent > li {
+  margin-bottom: 0;
+}
+.lmm_container .lmm_product .tabs_parent > li > a {
+  line-height: 50px;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+.lmm_container .lmm_product .tabs_parent:hover {
+  border-bottom: 3px solid #e92322;
+}
+.lmm_container .lmm_product .lmm-content .lmm_pBox {
+  margin: 0;
+  padding: 0;
+}
+.lmm_container .lmm_product .lmm-content .lmm_pBox .lmm_top {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+}
+.lmm_container .lmm_product .lmm-content .lmm_pBox .lmm_top a {
+  width: 100%;
+  display: block;
+}
+.lmm_container .lmm_product .lmm-content .lmm_pBox .lmm_top a img {
+  width: 100%;
+  display: block;
+}
